@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Lemonada');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%
+		
+	
+}
+body{
+	background-color: rgb(168, 211, 228);
+}
+
+div{
+	display: block;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+	padding-bottom: 20px;
+	
+}
+
+h1{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	
+	
+	color: black;
+	font-family: 'Fantasy', cursive !important;
+	text-transform: uppercase;
+	
+}
+
+ul{
+	margin:0;
+	padding: 0;
+}
+
+#completed-tasks span{
+	color: red;
+  text-decoration: line-through;
+	font-size: 1.2em !important;
+}
+
+
+#incomplete-tasks span{
+	color: blue;
+	
+	font-size: 1.2em !important;
+}
+
